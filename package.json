@@ -1,0 +1,19 @@
+{
+  "name": "laba3",
+  "version": "1.0.0",
+  "description": "laba3",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "FOMICHEV AV",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.15"
+  }
+}

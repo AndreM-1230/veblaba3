@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authorization</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body class="bodybg">
+<div class="wrapper">
+    <div style="text-align: center;">
+        <h2 class="login">Authorization</h2>
+        <form method="post">
+            <div>
+                <div class="form-group">
+                    <label class="login" >Login</label>
+                    <input name="login" type="text" minlength="5" maxlength="15" required />
+                </div>
+                <div class="form-group">
+                    <label class="login" >Password</label>
+                    <input name="password" type="password" minlength="5" maxlength="15" autocomplete="off" required />
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Sign In" class="btn" formaction="/v1/authorization"  />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
